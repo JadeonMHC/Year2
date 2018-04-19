@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+#CenterBox {
+  display: inline-block;
+  background-color: white;
+
+  width: 500px;
+}
+
+#MessageBox {
+  background-color: #333;
+  width: 100%;
+  height: 700;
+
+  text-align: left;
+
+  color: green;
+  font-family: 'Courier New';
+
+  overflow-y: scroll;
+  overflow-x: auto;
+
+  word-wrap: break-word;
+
+}
+
+#TextInput {
+  width: 400px;
+}
